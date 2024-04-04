@@ -1,0 +1,15 @@
+{
+    "name": "parameter_store_project",
+    "version": "1.0.0",
+    "description": "A project to interact with SSM parameter store",
+    "main": "ssm_query.js",
+    "scripts": {
+        "start": "node ssm_query.js"
+    },
+    "author": "Ajitabh Sharma",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "aws-sdk": "^2.102.0"
+    }
+}
